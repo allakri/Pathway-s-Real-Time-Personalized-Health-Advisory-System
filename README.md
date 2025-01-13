@@ -22,6 +22,32 @@ This project, **Pathway’s Real-Time Personalized Health Advisory System**, is 
 
 ---
 
+# Project Title
+
+## Overview
+
+This project is focused on [brief description of your project]. The static folder contains all the relevant files, including the demo video that illustrates key features.
+
+## Demo Video
+
+You can watch the project demo here:
+
+![Demo Video](static/demo.mp4) <!-- Embed the video thumbnail (optional) -->
+
+<video width="640" height="360" controls>
+  <source src="static/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## Folder Structure
+
+- **static/**: Contains all static files like images, videos, etc.
+  - **demo.mp4**: The demo video showing project functionality.
+
+## How to Run
+
+[Provide steps to run the project or how to access files.]
+
 # Project Documentation
 
 ## Workflow Diagram
