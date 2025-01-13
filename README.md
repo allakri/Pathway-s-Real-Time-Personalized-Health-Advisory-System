@@ -26,11 +26,11 @@ This project, **Pathway’s Real-Time Personalized Health Advisory System**, is 
 
 ## Workflow Diagram
 
-![Workflow Diagram](./static/workflow.png)
+![Workflow Diagram](./static/workFLow.png)
 
 ## Block Diagram
 
-![Block Diagram](./static/blocks.png)
+![Block Diagram](./static/Blocks.png)
 
 ## Introduction
 
