@@ -32,7 +32,7 @@ This project is focused on [brief description of your project]. The static folde
 
 You can watch the project demo here:
 
-![Demo Video](static/demo.mp4) <!-- Embed the video thumbnail (optional) -->
+![Demo Video](static/Demo.mp4) <!-- Embed the video thumbnail (optional) -->
 
 <video width="640" height="360" controls>
   <source src="static/demo.mp4" type="video/mp4">
