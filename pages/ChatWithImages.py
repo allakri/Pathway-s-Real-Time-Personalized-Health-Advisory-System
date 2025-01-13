@@ -53,7 +53,7 @@ if uploaded_file is not None:
     st.image(image, caption="Uploaded Image", use_column_width=True)
 
 # Button to trigger calorie analysis
-submit_button = st.button("Calculate Total Calories")
+submit_button = st.button("submit")
 
 # Prompt for nutritionist to calculate calories and provide details
 nutritionist_prompt = """

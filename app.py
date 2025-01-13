@@ -159,7 +159,7 @@ if "vector" not in st.session_state:
     st.session_state.vectors = FAISS.from_documents(st.session_state.final_documents, st.session_state.embeddings)
 
 # Streamlit app interface
-st.title("ChatGroq Demo")
+# st.title("ChatGroq Demo")
 llm = ChatGroq(
     groq_api_key=os.environ["GROQ_API_KEY"],
     model_name="mixtral-8x7b-32768"
