@@ -132,7 +132,7 @@ def load_all_data(data_dir):
     return docs
 
 # Directory containing files
-data_dir = r"D:\gen ai\work\loaders\data"  # Use raw string to avoid escape sequence issues
+data_dir = r"D:\pathway\loaders\data"  # Use raw string to avoid escape sequence issues
 
 # Check and initialize session state variables
 if "vector" not in st.session_state:

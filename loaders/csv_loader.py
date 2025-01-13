@@ -1,3 +1,26 @@
+# import pathway as pw
+
+# # We define a schema for the table
+# # It set all the columns and their types
+# class InputSchema(pw.Schema):
+#   value: int
+
+# # We use the CSV input connector to connect to the directory.
+# t = pw.io.csv.read(
+#   './input_stream_dir/',
+#   schema=InputSchema,
+#   mode="streaming"
+# )
+
+# # We compute the sum (this part is independent of the connectors).
+# t = t.reduce(sum=pw.reducers.sum(t.value))
+
+# # We use a CSV output connector to write the results in an output file.
+# pw.io.csv.write(t, "output_stream.csv")
+
+# # We launch the computation.
+# pw.run()
+
 import os
 import pandas as pd
 
